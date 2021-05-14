@@ -1,0 +1,53 @@
+.create-todo {
+   display: flex;
+   width: 400px;
+   height: 30px;
+}
+
+.todos,
+.todo-change {
+   width: 400px;
+}
+
+.field,
+.field-change {
+   display: flex;
+   margin-top: 10px;
+   height: 30px;
+   cursor: pointer;
+}
+
+.todo {
+   border: 1px solid black;
+   width: 400px;
+}
+
+.delete-button,
+.save-button,
+.create-button {
+   padding: 0px;
+   width: 33px;
+}
+
+.delete-button {
+   cursor: pointer;
+}
+
+.back-button {
+   padding: 0px;
+   width: 31px;
+   height: 30px;
+}
+
+.image {
+   width: 27px;
+   height: 27px;
+}
+
+.description {
+   width: 400px;
+}
+
+.hidden {
+   display: none;
+}
